@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">First_Code_Practial_1_2a</string>
+    <string name="Dog_Poodle">Poodle</string>
+    <string name="Dog_Labrador">Labrador</string>
+    <string name="Dog_Shar_Pei">Shar_Pei</string>
+    <string name="Dog_Newfoundland">Newfoundland</string>
+</resources>
