@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Event_Handler_Practical_2_1</string>
+    <string name="btnEventHandler">Test</string>
+    <string name="ClickNormal">Normal Click</string>
+    <string name="ClickLong">Long Click</string>
+    <string name="NoAt">Don\'t type \@</string>
+    <string name="TypeUserName">Type your Username</string>
+    <string name="Thank">Thank you</string>
+    <string name="UsernameLengthNotification">Username must be 8 characters,</string>
+</resources>
