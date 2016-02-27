@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Complex_Screen_Controls_Practical_2_2</string>
+    <string name="ChoseInstrument">Which instrument do you want to learn to play?</string>
+    <string name="InstrAccordion">Accordion</string>
+    <string name="InstrBassoon">Bassoon</string>
+    <string name="InstrCello">Cello</string>
+    <string name="btnConfirmText">Confirm</string>
+    <string name="EnrolledNotification">You have enrolled for</string>
+    <string name="TimeOfStartClass">When do you want to start?</string>
+    <string name="WordIn">in</string>
+    <string name="Worning">Please select the month you want to start</string>
+    <string name="NoRadioButtonSelected">Please select one instrument</string>
+    <string-array name="MonthForSpinner">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
