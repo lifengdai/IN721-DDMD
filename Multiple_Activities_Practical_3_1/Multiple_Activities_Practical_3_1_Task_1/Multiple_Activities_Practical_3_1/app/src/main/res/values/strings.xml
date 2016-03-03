@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multiple_Activities_Practical_3_1</string>
+    <string name="button_change_activity_text">Change Activity</string>
+    <string name="in_activity_A">Activity A</string>
+    <string name="in_activity_B">Activity B</string>
+    <string name="in_activity_C">Activity C</string>
+    <string name="website_address">http://developer.android.com</string>
+</resources>
