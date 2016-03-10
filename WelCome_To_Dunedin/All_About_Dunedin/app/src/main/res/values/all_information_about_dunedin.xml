@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_dunedin">
+        <item>Services</item>
+        <item>Fun Things To Do</item>
+        <item>Dining</item>
+        <item>Shopping</item>
+    </string-array>
+</resources>
