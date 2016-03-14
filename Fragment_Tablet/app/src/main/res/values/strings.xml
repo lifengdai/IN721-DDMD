@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fragment_Tablet</string>
+    <string name="btn_show_pic_txt">Show Picture</string>
+    <string name="btn_showlist_txt">Show List</string>
+    <string name="txtv_picture_title">Here is the picture</string>
+    <string name="txtv_listview_title">Here is the listview</string>
+    <string-array name="list">
+        <item>Cow</item>
+        <item>Monkey</item>
+        <item>cat</item>
+    </string-array>
+</resources>
