@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GetColorOfTextview</string>
+    <string name="what_is_a_computer">A computer is a general purpose device that can be programmed 
+        to carry out a set of arithmetic or logical operations automatically. 
+        Since a sequence of operations can be readily changed, 
+        the computer can solve more than one kind of problem.</string>
+    <string name="btn_txt_change_color">Change Text Color</string>
+    <string name="the_rain">
+        She falls from the sky \n
+        She makes the sun shy \n
+        All grass will say hi \n
+        listen!
+        It's her passing by
+    </string>
+    <string name="color">color</string>
+</resources>
