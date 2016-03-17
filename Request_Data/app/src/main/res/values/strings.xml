@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Request_Data</string>
+    <string name="main_title">Your username</string>
+    <string name="default_username">No username chosen yet&#46;&#46;&#46;</string>
+    <string name="btn_go_to_settings">Go To Settings</string>
+    <string name="picture_name">cat</string>
+    <string name="txt_username_enter">Enter Your UserName:</string>
+    <string name="btn_txt_return">Return To Main</string>
+    <string name="extra_string">name</string>
+</resources>
