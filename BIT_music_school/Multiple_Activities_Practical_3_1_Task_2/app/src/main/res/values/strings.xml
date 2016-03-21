@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">multiple_activities_practical_3_1_task_2</string>
+    <string name="ChoseInstrument">Which instrument do you want to learn to play?</string>
+    <string name="InstrAccordion">Accordion</string>
+    <string name="InstrBassoon">Bassoon</string>
+    <string name="InstrCello">Cello</string>
+    <string name="btnConfirmText">Confirm</string>
+    <string name="EnrolledNotification">You have enrolled for</string>
+    <string name="TimeOfStartClass">When do you want to start?</string>
+    <string name="WordIn">in</string>
+    <string name="Worning">Please select the month you want to start</string>
+    <string name="NoRadioButtonSelected">Please select one instrument</string>
+    <string name="Welcome">2016 Music School Enrolment</string>
+    <string name="ClickMe">\u003E Click Me To Enter \u003C </string>
+    <string name="dialog_title">Confirm?</string>
+    <string name="Confirm">Is this correct?</string>
+    <string name="oh">oh well</string>
+    <string name="check">Is this your course: </string>
+    <string-array name="MonthForSpinner">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

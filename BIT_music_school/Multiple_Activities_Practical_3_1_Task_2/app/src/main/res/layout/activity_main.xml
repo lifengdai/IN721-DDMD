@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bit.dail3.complex_screen_controls_practical_2_2.MainActivity"
+    android:id="@+id/txtvChoseInstrument">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChoseInstrument"
+        android:textSize="@dimen/ChoseInstrumentQuestionSize"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rgInstruments"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/RadioButtonGroupTopLeftRightMargin"
+        android:layout_marginLeft="@dimen/RadioButtonGroupTopLeftRightMargin"
+        android:layout_marginRight="@dimen/RadioButtonGroupTopLeftRightMargin"
+        android:layout_marginBottom="@dimen/RadioButtonGroupBottomMargin">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InstrAccordion"
+            android:id="@+id/radioButton" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InstrBassoon"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/InstrCello"
+            android:id="@+id/radioButton3" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConfirmText"
+        android:enabled="false"
+        android:id="@+id/btnConfirm"
+        android:layout_alignTop="@+id/rgInstruments"
+        android:layout_alignLeft="@+id/rgInstruments"
+        android:layout_alignStart="@+id/rgInstruments"
+        android:layout_marginTop="@dimen/BtnConfirmMarginTop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/NotificationTextSize"
+        android:id="@+id/txtvConfirmNotification"
+        android:layout_marginTop="@dimen/txtvConfirmNOtificationTopMatgin"
+        android:layout_below="@+id/btnConfirm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TimeOfStartClass"
+        android:textSize="@dimen/TimeOfStartQuestionSize"
+        android:id="@+id/txtvTimeStart"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnMonth"
+        android:layout_below="@+id/txtvTimeStart"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
