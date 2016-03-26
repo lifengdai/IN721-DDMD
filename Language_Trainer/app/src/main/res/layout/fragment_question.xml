@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bit.dail3.language_trainer.QuestionFragment"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgvPicture"
+        android:contentDescription="@string/imgv_description"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtvName"
+        android:layout_below="@+id/imgvPicture"
+        android:layout_alignStart="@+id/btnCheckNext"
+        android:layout_marginTop="40dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtvName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:id="@+id/rdogpxAnswers"
+        android:orientation="vertical"
+        android:layout_alignParentTop="false"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="250dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/der_text"
+            android:id="@+id/rdobtnDer"
+            android:layout_gravity="left|center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/das_text"
+            android:id="@+id/rdobtnDas"
+            android:layout_gravity="left|center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/die_text"
+            android:id="@+id/rdobtnDie"
+            android:layout_gravity="left|center_horizontal" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_check_next_text"
+        android:id="@+id/btnCheckNext"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

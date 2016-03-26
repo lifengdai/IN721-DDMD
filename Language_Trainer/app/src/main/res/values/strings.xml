@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Language_Trainer</string>
+    <string name="welcome">Weclome to BIT language school</string>
+    <string name="press_empty_area">Press empty area to start the quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgv_description">QuesionPicture</string>
+    <string name="btn_check_next_text">Check</string>
+    <string name="txt_instruction_text">Instruction</string>
+    <string name="txt_Instruction">You answer will be marked as red color if it is wrong, else will be green</string>
+    <string name="der_text">Der</string>
+    <string name="das_text">Das</string>
+    <string name="die_text">Die</string>
+    <string name="result_title_text">Your result</string>
+</resources>
