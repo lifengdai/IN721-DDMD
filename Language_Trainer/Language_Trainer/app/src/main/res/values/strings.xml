@@ -13,4 +13,5 @@
     <string name="das_text">Das</string>
     <string name="die_text">Die</string>
     <string name="result_title_text">Your result</string>
+    <string name="btn_do_it_again_text">Do It Again</string>
 </resources>

@@ -40,4 +40,14 @@
         android:id="@+id/txtvCorrectRate"
         android:layout_below="@+id/txtvWrong"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_do_it_again_text"
+        android:id="@+id/btnDoAgain"
+        android:layout_below="@+id/txtvCorrectRate"
+        android:layout_alignRight="@+id/txtvTitle"
+        android:layout_alignEnd="@+id/txtvTitle"
+        android:layout_marginTop="75dp" />
 </RelativeLayout>

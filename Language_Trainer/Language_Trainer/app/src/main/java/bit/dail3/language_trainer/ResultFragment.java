@@ -3,9 +3,12 @@ package bit.dail3.language_trainer;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -28,6 +31,8 @@ public class ResultFragment extends Fragment {
         TextView txtvCorrect = (TextView) v.findViewById(R.id.txtvCorrect);
         TextView txtvWrong = (TextView) v.findViewById(R.id.txtvWrong);
         TextView txtvCorrectRate = (TextView) v.findViewById(R.id.txtvCorrectRate);
+        Button btnDoAgain = (Button) v.findViewById(R.id.btnDoAgain);
+        btnDoAgain.setOnClickListener(new doagain());
         int Correct = DataAnalyse.getCorrectQuestions();
         String SCorrect = Integer.toString(DataAnalyse.getCorrectQuestions());
         String wrong = Integer.toString(11 - DataAnalyse.getCorrectQuestions());
@@ -39,4 +44,18 @@ public class ResultFragment extends Fragment {
         return v;
     }
 
+    //Added feature in final version
+    //Allow user to go back and do all the test again
+    class doagain implements View.OnClickListener
+    {
+        @Override
+        public void onClick(View v) {
+            DataAnalyse.resetCorrectQuestions();
+            Fragment result = new QuestionFragment();
+            FragmentManager fm = getActivity().getSupportFragmentManager();
+            FragmentTransaction ft = fm.beginTransaction();
+            ft.replace(R.id.rltvlotMain, result);
+            ft.commit();
+        }
+    }
 }

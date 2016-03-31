@@ -61,4 +61,9 @@ public class DataAnalyse
     public static int getCorrectQuestions() {
         return CorrectQuestions;
     }
+
+    public static void resetCorrectQuestions()
+    {
+        CorrectQuestions = 0;
+    }
 }
