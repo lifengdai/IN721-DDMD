@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">City_Country_SQL</string>
+    <string name="txtvTitle_text">Click on desire country to see the city</string>
+</resources>
