@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LanguagePreference</string>
+    <string name="txtvStatus_text">No lanuage has chosen yet</string>
+    <string name="txtvChangeLanguage_text">Change your language</string>
+    <string name="txtvChangeColor_text">Change text color</string>
+    <string name="rdobtnGreen_text">Green</string>
+    <string name="rdobtnYellow_text">Yellow</string>
+    <string name="rdobtnBlue_text">Blue</string>
+</resources>
