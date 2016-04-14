@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DoubleFetch</string>
+    <string name="btn_get_image_text">Get Image</string>
+</resources>
