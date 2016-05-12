@@ -26,26 +26,30 @@
         android:layout_toEndOf="@+id/btnPhotoIntent">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
             android:id="@+id/imageView"
             android:layout_gravity="left|top" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
             android:id="@+id/imageView2"
             android:layout_gravity="left|bottom" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
             android:id="@+id/imageView3"
             android:layout_gravity="right|top" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
             android:id="@+id/imageView4"
             android:layout_gravity="right|bottom" />
     </FrameLayout>
