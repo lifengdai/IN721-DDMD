@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CameraMosaic</string>
+    <string name="photo_intent_text">Photo Intent</string>
+</resources>
