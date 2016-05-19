@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id = "@+id/menu_item_location"
+        android:title = "@string/location_text"
+        android:icon="@drawable/location_img"
+        app:showAsAction = "ifRoom|withText">
+    </item>
+
+    <item
+        android:id = "@+id/menu_item_mail"
+        android:title = "@string/email_text"
+        android:icon="@drawable/mail_black"
+        app:showAsAction = "ifRoom|withText">
+    </item>
+
+    <item
+        android:id = "@+id/menu_item_info"
+        android:title = "@string/information_text"
+        android:icon="@drawable/info_img"
+        app:showAsAction = "ifRoom|withText">
+    </item>
+</menu>

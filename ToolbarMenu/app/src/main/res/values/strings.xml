@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToolbarMenu</string>
+    <string name="location_text">Location</string>
+    <string name="email_text">Email</string>
+    <string name="information_text">Information</string>
+    <string name="where_are_you">Your location is in Dunedin</string>
+    <string name="who_do_you_wish_to_write">Who do you wish to write an email to</string>
+    <string name="who_is_the_author">This app made by Derek Dai</string>
+</resources>
