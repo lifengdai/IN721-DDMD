@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APIDemo</string>
+    <string name="google_api_key"
+            templateMergeStrategy="preserve"
+            translatable="false">
+        AIzaSyAknVQkvsLXXZ3nAhNNbm8rBFfndJkR4OE
+    </string>
+</resources>
